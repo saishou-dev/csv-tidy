@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# このツールの出力（サンプルの期待値 expected_output.csv だけは追跡する）
+sample/output.csv
+sample/*.log.txt
+*.log
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
